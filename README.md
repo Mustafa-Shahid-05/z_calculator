@@ -14,16 +14,20 @@ Inputs
 - Reduced Temperature (Tpr)
 
 Output
-Gas compressibility factor (Z)
+
+- Gas compressibility factor (Z)
 
 Structure
-zFactor.py     (Correlation implementations)
-main.py        (Execution script)
-mainUi.py      (Simple user interface)
+
+- zFactor.py     (Correlation implementations)
+- main.py        (Execution script)
+- mainUi.py      (Simple user interface)
 Example
 
 z = zFactor(ppr=5, tpr=3)
 
 print(z.papayJ())
+
 print(z.hallYarbough())
+
 print(z.dranchukAbuKassem())
