@@ -22,6 +22,7 @@ Structure
 - zFactor.py     (Correlation implementations)
 - main.py        (Execution script)
 - mainUi.py      (Simple user interface)
+
 Example
 
 z = zFactor(ppr=5, tpr=3)
